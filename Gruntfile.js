@@ -11,13 +11,12 @@ module.exports = function(grunt) {
 
     // JSHint JavaScript files
     jshint: {
-      files: ['Gruntfile.js', 'package.json', 'ghostbooty.js', 'custom.js']
+      files: ['Gruntfile.js', 'package.json']
     },
 
     // Concatenate all JavaScript files
     concat: {
       options: {
-        banner: '<%= banner %>',
         stripBanners: true,
         separator: ';',
       },
@@ -30,7 +29,6 @@ module.exports = function(grunt) {
     // Minify JavaScript with Uglify
     uglify: {
       options: {
-        banner: '<%= banner %>',
         mangle: false
       },
       dist: {
@@ -87,4 +85,5 @@ module.exports = function(grunt) {
 
   // Default tasks
   grunt.registerTask('default', ['jshint', 'concat', 'sass:dist', 'uglify']);
+  grunt.registerTask('serve', ['concat', 'watch']);
 };
