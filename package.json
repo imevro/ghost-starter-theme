@@ -1,13 +1,17 @@
 {
-  "name": "Starter",
+  "name": "Starter.ghost",
   "version": "0.1.0",
   "description": "Bootstrap 3 theme for Ghost",
-  "author": "Eugene Rodionov",
-  "homepage": "http://theaqua.im",
+  "author": {
+    "name": "Eugene Rodionov",
+    "email": "starter.ghost@theaqua.im",
+    "url": "http://theaqua.im"
+  },
+  "homepage": "https://github.com/theaqua/Starter.ghost",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/theaqua/Starter.git"
+    "url": "https://github.com/theaqua/Starter.ghost.git"
   },  
   "devDependencies": {
     "grunt": "~0.4.2",
