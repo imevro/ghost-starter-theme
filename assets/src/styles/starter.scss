@@ -1,0 +1,36 @@
+$footer-height: 10em;
+$footer-margin: 5em;
+
+// Sticky footer
+html,
+body {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto (-($footer-height + $footer-margin)); // Negative indent footer by its height
+  padding-bottom: $footer-height + $footer-margin; // Pad bottom by footer height
+}
+
+.main-footer {
+  background: rgb(238, 238, 238);
+  height: $footer-height;
+  padding: 1em 0;
+  margin-top: $footer-margin;
+}
+
+// Post
+.post-footer {
+  border-top: 1px solid rgb(238, 238, 238);
+  margin-top: 2em;
+  padding-top: 1em;
+}
+
+.post-author {
+  .post-author-image {
+    max-height: 100px;
+    border-radius: 50%;
+  }
+}
