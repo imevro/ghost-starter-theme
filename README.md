@@ -4,7 +4,7 @@ Written as starter template for future themes.
 
 ![Starter.ghost][1]
 
-### Future
+### Features
 
  - Twitter Bootstrap 3, normalize.css, Font Awesome
  - SCSS with [lib-sass][2] (written on C)
