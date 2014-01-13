@@ -85,5 +85,5 @@ module.exports = function(grunt) {
 
   // Default tasks
   grunt.registerTask('default', ['jshint', 'concat', 'sass:dist', 'uglify']);
-  grunt.registerTask('serve', ['concat', 'watch']);
+  grunt.registerTask('serve', ['sass:server', 'concat', 'watch']);
 };
