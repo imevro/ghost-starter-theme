@@ -13,7 +13,7 @@ Written as starter template for future themes.
 ### Install and use
  - Clone this repository to `/content/themes`
  - In Ghost's settings change "Theme" preference
- - Go to ``/content/themes/Starter``, make ``npm install && bower install``
+ - Go to ``/content/themes/Starter.ghost``, make ``npm install && bower install``
  - Run ``grunt serve`` (for live compiling ``.scss`` files and concat ``.js`` files) or ``grunt`` for build
  
 ### Roadmap
