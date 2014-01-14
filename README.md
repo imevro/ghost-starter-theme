@@ -1,6 +1,6 @@
 ##  Starter.ghost
 Twitter Bootstrap 3 theme for Ghost.js.
-Written as starter template for future themes.
+Written as starter template for future themes. For example, I made [Supernova][3] starting with this theme.
 
 ![Starter.ghost][1]
 
@@ -23,3 +23,4 @@ Written as starter template for future themes.
 
   [1]: http://gm4.in/i/fgl.png
   [2]: http://libsass.org/
+  [3]: https://github.com/theaqua/Supernova.ghost
