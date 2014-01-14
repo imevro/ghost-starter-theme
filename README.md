@@ -18,7 +18,7 @@ Written as starter template for future themes.
  
 ### Roadmap
  - Clean theme
- - Add livereload and task for autoprefixer
+ - Add livereload
  - Accept pull requests
 
   [1]: http://gm4.in/i/fgl.png
