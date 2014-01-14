@@ -18,7 +18,7 @@ Written as starter template for future themes. For example, I made [Supernova][3
  
 ### Roadmap
  - Clean theme
- - Add livereload
+ - Add livereload, html/css/js minify (bower components too)
  - Accept pull requests
 
   [1]: http://gm4.in/i/fgl.png
