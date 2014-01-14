@@ -11,9 +11,9 @@ Written as starter template for future themes. For example, I made [Supernova][3
  - Grunt.js, Bower
  
 ### Install and use
- - Clone this repository to `/content/themes`
- - In Ghost's settings change "Theme" preference
- - Go to ``/content/themes/Starter.ghost``, make ``npm install && bower install``
+ - Clone this repository to `/content/themes`: ``git clone https://github.com/theaqua/Starter.ghost.git Starter`` (**important:** Ghost.js have bug with dots in theme's name, you must not use ``Starter.ghost`` name, only ``Starter``)
+ - In Ghost's settings change "Theme" preference, restart Ghost (yes, I'm serious)
+ - Go to ``/content/themes/Starter``, make ``npm install && bower install``
  - Run ``grunt serve`` (for live compiling ``.scss`` files and concat ``.js`` files) or ``grunt`` for build
  
 ### Roadmap
